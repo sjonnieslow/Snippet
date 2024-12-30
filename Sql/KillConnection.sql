@@ -1,3 +1,5 @@
+/* only works with SQL Server 2012 and later */
+
 declare @DatabaseName varchar(128) = 'Trading'
 declare @SqlCommand varchar(max) = ''
 declare @PrintOnly bit = 1
